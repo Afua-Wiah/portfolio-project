@@ -24,6 +24,8 @@ h1 {
 p {
   font-weight: normal;
   font-size: 16px;
+  line-height: 30px;
+  text-align: center;
 }
 
 .top-structure {
@@ -50,4 +52,35 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 18px, 30px;
+}
+.btn-outline-reach {
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.project-desciption {
+  padding: 120px 60px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .top-structure {
+    padding: 80px 20px;
+  }
+
+  .project-desciption {
+    padding: 0;
+    text-align: center;
+  }
 }
