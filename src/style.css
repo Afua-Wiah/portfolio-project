@@ -19,13 +19,13 @@ h6 {
 }
 h1 {
   font-size: 96px;
+  line-height: 1.5;
 }
 
 p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
-  text-align: center;
 }
 
 .top-structure {
@@ -44,6 +44,23 @@ p {
   font-size: 24px;
   line-height: 2;
   color: #272142;
+}
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.about-section-content {
+  margin: 30px;
 }
 .btn-reach {
   border-radius: 4px;
@@ -64,25 +81,7 @@ p {
 .project-desciption {
   padding: 120px 60px;
 }
-.about-section h1 {
-  font-family: var(--heading-font-family);
-  font-size: 64px;
-  line-height: normal;
-  width: 500px;
-  height: 170px;
-}
-.about-section h2 {
-  font-family: var(--default-font-family);
-  font-size: 18px;
-  width: 506px;
-  height: 27px;
-}
-.about-section p {
-  font-weight: 400;
-  line-height: 30px;
-  color: rgba(39, 33, 66, 0.7);
-  text-align: justify;
-}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -101,7 +100,12 @@ p {
     padding: 0;
     text-align: center;
   }
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
 }
 #laurie-jp {
-  border-radius: 4px;
+  border-radius: 10px;
+  width: 500px;
 }
