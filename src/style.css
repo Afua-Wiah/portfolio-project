@@ -70,6 +70,35 @@ p {
 .content {
   margin: 30px;
 }
+.logo {
+  max-height: 40px;
+}
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--secondary-color);
+}
 .btn-reach {
   border-radius: 4px;
   background: var(--secondary-color);
@@ -78,6 +107,9 @@ p {
   line-height: 27px;
   padding: 18px, 30px;
 }
+.btn-reach:hover {
+  color: var(--secondary-color);
+}
 .btn-outline-reach {
   color: var(--secondary-color);
   border: 1px solid var(--secondary-color);
@@ -85,6 +117,9 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+.btn-outline-reach:hover {
+  color: var(--secondary-color);
 }
 .project-desciption {
   padding: 120px 60px;
